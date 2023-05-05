@@ -129,6 +129,18 @@ main div.gallery {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap:20px;
 }
+footer {
+    text-align: center;
+    padding: 0;
+}
+
+footer p {
+    border-top:1px solid rgba(0,0,0,0.1);
+    margin: 0;
+    padding: 20px 0;
+    font-size:  14px;
+    color:#444
+}
 
 @media (max-width: 600px) { 
    
