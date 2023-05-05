@@ -16,11 +16,13 @@ main, footer, .card-2 {
     margin: auto; /* centro l'elemento nella pagina */
     padding: 20px;
 }
-
+header{
+    background-color: #0a033a;
+}
 .card-2 {
     display: flex; /* allineo in orizzontale gli elementi della card */
     gap:20px;
-    background: #fff;
+    background: #ffffff;
     margin-bottom: 120px;
 }
 
@@ -38,7 +40,7 @@ main, footer, .card-2 {
 
 header a {
     text-decoration: none;
-    color: #222;
+    color: #fdfdfd;
 }
 
 header a:hover {
@@ -72,12 +74,13 @@ header nav ul {
 }
 
 section.hero {
-    background:rgba(0,0,0,0.60);/* colore impostato con RGB e con la trasparenza, che si può notare sopratutto quando cambia il colore di sfondo */
+    background-color: #131120;
     text-align: center;
 }
 
 
 section.hero h1 {
+
     margin: 0;
     padding: 40px 10px;
     font-size: 40px;
@@ -125,19 +128,6 @@ main div.gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap:20px;
-}
-
-footer {
-    text-align: center;
-    padding: 0;
-}
-
-footer p {
-    border-top:1px solid rgba(0,0,0,0.1);
-    margin: 0;
-    padding: 20px 0;
-    font-size:  14px;
-    color:#444
 }
 
 @media (max-width: 600px) { 
