@@ -290,7 +290,6 @@ font-size: 40px;
 /*Css Pagina gemplay*/  
 /*IDER 2*/
 nav ul {
-/*se voglio acentrare le scritte mettere queti ( display: flex;/* Mettere al centro justify-content: space-between;align-items: center;)*/
    margin:0;
    padding: 0;
    list-style-type: none;
@@ -359,7 +358,12 @@ img {
    margin: 20px 5px 0 0;
 }
 
-    
+.Immagine{
+   margin-top: 500px;
+   max-width: 100%;
+   height: auto;
+    }
+
 .Testo2 p{
    position: absolute;
    width: 100%;
@@ -369,14 +373,51 @@ img {
    font-weight: 400;
    font-size: 40px;
    line-height: 45px;
-   margin-left: 15px;
-    
+   margin-left: 15px; 
     }
-.Immagine{
-   margin-top: 500px;
+
+
+.Testo3 p{
+   position: absolute;
+   width: 100%;
+   top: 1610px;
+   font-family: 'Mukta';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 45px;
+   margin-left: 25px;
     }
+
+    .c-text{
+      color: #FFA800;
+    }
+    .Immagine2{
+      margin-top: 550px;
+      max-width: 100%;
+      height: auto;
+       }
+
+.Testo4 p{
+   position: absolute;
+   width: 100%;
+   top: 3100px;
+   font-family: 'Mukta';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 45px;
+   margin-left: 25px;
+    }
+   .Immagine3{
+      margin-top: 550px;
+      max-width: 100%;
+      height: auto;
+       }
+
+       
 @media only screen and (max-width: 600px) {
-   * Modifica lo stile del rettangolo per dispositivi mobili */
+   /* Modifica lo stile del rettangolo per dispositivi mobili */
    .rectangle {
    height: 130px; /* Modifica l'altezza del rettangolo per dispositivi mobili */
    }
