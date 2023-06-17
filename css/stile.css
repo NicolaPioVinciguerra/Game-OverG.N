@@ -46,7 +46,7 @@ footer h5{
    margin: auto;
    padding: 0 16px;
 }
-.hero h2 {/* Bisogna sistemare la scritta responsile */
+.hero h2 {/* Bisogna sistemare la scritta responsile  */
    position: absolute;
    color: rgb(255, 255, 255);
    left: 50px;
@@ -54,6 +54,8 @@ footer h5{
    z-index: 100;
    margin: 0;
    font-size: 25px;
+   font-family: 'Heebo';
+   font-style: light;
 }
 .hero h1 {/* Bisogna sistemare la scritta responsile */
    position: absolute;
@@ -63,15 +65,19 @@ footer h5{
    z-index: 100;
    margin: 0;
    font-size: 30px;
+   font-family: 'Heebo';
+   font-style: mixed;
 }
-.hero p {/* Bisogna sistemare la scritta responsile */
+.hero p {/* Bisogna sistemare la scritta responsile Mukta */
    position: absolute;
    color: rgb(255, 255, 255);
    left: 50px;
    bottom: 185px;
    z-index: 100;
    margin: 0;
-   font-size: 15px;
+   font-size: 20 px;
+   font-family: 'Mukta';
+   font-style: mixed;
 }
 .hero0 {
    position: relative;
@@ -109,6 +115,8 @@ footer h5{
    color: white;
    z-index: 100;
    margin: 0;
+   font-family: 'Bebas Neue';
+   font-style: normal;
 }
 .hero1 {
    position: relative;
@@ -145,7 +153,8 @@ footer h5{
    color: white;
    z-index: 100;
    margin: 0;
-
+   font-family: 'Bebas Neue';
+   font-style: normal;
 }
 
 .hero2 {
@@ -183,6 +192,8 @@ footer h5{
    color: white;
    z-index: 100;
    margin: 0;
+   font-family: 'Bebas Neue';
+   font-style: normal;
 }
 
 .hero3 {
@@ -220,6 +231,8 @@ footer h5{
    color: white;
    z-index: 100;
    margin: 0;
+   font-family: 'Bebas Neue';
+   font-style: normal;
 }
        
 @media screen and  (max-width: 500px) {
