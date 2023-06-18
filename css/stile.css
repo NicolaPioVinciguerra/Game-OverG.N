@@ -267,17 +267,17 @@ footer h5{
    } 
   .hero h1{
       font-size: 12px;
-      top: 190px;
+      top: 180px;
    } 
    .hero p{
       font-size: 12px;
-      top: 220px;
+      top: 200px;
    }    
      
 
 }
            
-@media screen and  (max-width: 400px) {
+@media screen and  (max-width: 300px) {
  img {
     width:100% ;
     height:100%;
@@ -302,7 +302,30 @@ font-size: 40px;
     .hero3 h2{
         font-size: 40px;
         }
-       
+       .hero h2{
+      font-size: 12px;
+      top: 160px;
+   } 
+  .hero h1{
+      font-size: 12px;
+      top: 190px;
+   } 
+   .hero p{
+      font-size: 12px;
+      top: 220px;
+   }
+   .hero h2{
+      font-size: 9px;
+      top: 160px;
+   } 
+  .hero h1{
+      font-size: 9px;
+      top: 70px;
+   } 
+   .hero p{
+      font-size: 9px;
+      top: 190px;
+   }   
     } 
 /*Css Pagina gemplay*/  
 /*IDER 2*/
