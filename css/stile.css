@@ -328,7 +328,7 @@ font-size: 40px;
       top: 190px;
    }   
     } 
-/*Css Pagina gemplay*/  
+
 /*IDER 2*/
 .e1 h1 {
    font-size: 19px;
@@ -345,6 +345,7 @@ nav ul {
    display: flex;
    gap: 150px;/*responsile*/
 }
+
 nav ul ul{
    display: none;
    position: absolute;
@@ -352,6 +353,7 @@ nav ul ul{
    left: 0;
    width: 100%;
 }
+
 nav ul li{
 position: relative;
 float: left;
@@ -373,6 +375,7 @@ nav ul li a{
    padding: 17px 17px;
    font-size: 20px;/*responsile*/
    font-family: 'Bebas Neue';
+   
 }
 nav li a {border-bottom: solid 2px#f93200;}
 
@@ -384,207 +387,8 @@ nav ul li:hover a{
    transition: 0.5s;
 }
 /*FINE IDER 2 COD*/
-/*Css Gamplay*/
-html{
-   display: block;
-}
+/*Css Pagina gemplay*/  
 
-/*img {
- display: block;
- width: 90%;
- height: auto;
- margin: 0 auto;
- margin-top: 700px;
- }*/
-
- .frame {
-   padding: 8px;
-   border: 3px solid;
-   border-color:rgba(204, 160, 75, 1);
- }
-
- .Immagine3{
-   margin-top: 140px;
- }
-
-.Testo h2{
-   color: #fffdfd;
-   font-family: 'Bebas Neue';
-font-style: normal;
-font-weight: 400;
-font-size: 220px;
-letter-spacing: 0.025em;
-margin-left: 20px;
-line-height: 20px;
-
-}
-.rectangle{
-position: absolute;
-width: 100%;
-height: 454px;
-background-color: rgba(1, 0, 38, 1)
-}
-
-
-.Testo2 p{
-position: absolute;
-width: 100%;
-top: 620px;
-font-family: 'Mukta';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 35px;
-margin: 2px;
-}
-
-.Testo3 p{
-
-position: absolute;
-width: 100%;
-font-family: 'Mukta';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 50px;
-}
-
-.Testo4 p{
-width: 100%;
-font-family: 'Mukta';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 0.9;
-}
-
-
-
-
-.Testo5 p{
-font-family: 'Mukta';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 40px;
-}
-
-
-.c-text {
-color: rgba(255, 168, 0, 1);
-font-weight: bold;
-}
-
-footer {
-   background: #0B1B2B;
-}
-
-@media only screen and (max-width: 600px) {
-   /* Modifica lo stile del rettangolo per dispositivi mobili */
-   .rectangle {
-     height: 130px; /* Modifica l'altezza del rettangolo per dispositivi mobili */
-     max-width: 100%;
-     margin: auto;
-     padding: auto;
-
-   }
-
-   .Testo h2 {
-       margin-left: 20px;
-       font-size: 90px;
-       line-height: 2px;
-
-     }
-
-   .Testo2 p{
-       top: 290px;
-       font-size: 20px;
-   }
-
-   .Testo3 p {
-       font-size: 15px;
-       line-height: 1.7;
-}
-  .Testo4 p {
-font-size: 15px;
-line-height: 1.2;
-}
-   .Testo5 p {
-font-size: 15px;
-       line-height: 1.5;
-   }
- img{
-       margin-top: 300px;
-   }
-   .Immagine2{
-       margin-top: 350px;
-   }
-   .Immagine3{
-       margin-top: 50px;
-   }
-  .header{
-   max-width: 100%;
-
-  }
-}
-
-@media only screen and (max-width: 412px) {
-   html,body{
-       max-width: 100%;
-       overflow-x: hidden;
-   }
-   /* Modifica lo stile del rettangolo per dispositivi mobili */
-   .rectangle {
-     height: 130px; /* Modifica l'altezza del rettangolo per dispositivi mobili */
-    width: 100%;
-     margin: auto;
-   }
-
-   .Testo h2 {
-       font-size: 90px;
-       line-height: 2px;
-     }
-
-   .Testo2 p{
-       top: 290px;
-       font-size: 15px;line-height: 1.5;
-
-   }
-   .Testo3 p{
-       font-size: 12px;
-       line-height: 1.5;
-
-   }
-   .Testo4 p{
-       font-size: 12px;
-       line-height: 1.5;
-   }
- .Testo5 p{
-       font-size: 12px;
-       line-height: 1.5;
-
-   }
-
-   .Immagine2{
-       margin-top: 280px;
-   }
-
-  img{
-       margin-top: 300px;
-   }
-  .header{
-   max-width: 100%;
-  }
-}
-
-
-/* Ider 2 */
-/*Css Gamplay*/
-img {
-   width: 100%;
-   height:100%;
-   object-fit: cover;
-}                                                     
 .rectangle{
    position: absolute;
     width: 100%;
@@ -601,76 +405,86 @@ img {
    margin-left: 0px;
    margin: 20px 5px 0 0;
 }
-.tsc1 h2{ 
-/*CSS storia*/
-   font-size: 190px;
-   color: #fffdfd;
-   font-family: 'Bebas Neue';
-   font-style: normal;
-   font-weight: 0px;
-   letter-spacing: 0.025em;
-   margin-left: 0px;
-   margin: 20px 5px 0 0;
-}
-.Immagine{
-   margin-top: 500px;
-   max-width: 100%;
+
+.immagine-1{/*Sostitutivo img*/
+   display: block;
+   width: 90%;
    height: auto;
-    }
+   margin: 0 auto;
+   margin-top: 600px;
+} 
+.frame .immagine-1{
+   padding: 8px;
+   border: 3px solid;
+   border-color:rgba(204, 160, 75, 1);
+}
 
-.Testo2 p{
-   position: absolute;
-   width: 100%;
-   top: 620px;
-   font-family: 'Mukta';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 40px;
-   line-height: 45px;
-   margin-left: 15px; 
-    }
+.immagine-2{/*Sostitutivo img*/
+   display: block;
+   width: 90%;
+   height: auto;
+   margin: 0 auto;
+   margin-top: 250px;
+} 
+.frame .immagine-2{
+   padding: 8px;
+   border: 3px solid;
+   border-color:rgba(204, 160, 75, 1);
+}
 
+.Immagine3{
+   margin-top: 140px;
+ }
+
+ .Testo2 p{
+position: absolute;
+width: 100%;
+top: 620px;
+font-family: 'Mukta';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 35px;
+margin: 2px;
+}
 
 .Testo3 p{
    position: absolute;
    width: 100%;
-   top: 1610px;
    font-family: 'Mukta';
    font-style: normal;
    font-weight: 400;
-   font-size: 40px;
-   line-height: 45px;
-   margin-left: 25px;
-    }
+   font-size: 25px;
+   line-height: 50px;
+   }
+ 
+   .Testo4 p{
+      width: 100%;
+      font-family: 'Mukta';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 0.9;
+      }
+.Testo5 p{
+font-family: 'Mukta';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 40px;
+}
 
-    .c-text{
-      color: #FFA800;
-    }
-    .Immagine2{
-      margin-top: 550px;
-      max-width: 100%;
-      height: auto;
-       }
+footer {
+   background: #0B1B2B;
+}
 
-.Testo4 p{
-   position: absolute;
-   width: 100%;
-   top: 3000px;
-   font-family: 'Mukta';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 40px;
-   line-height: 45px;
-   margin-left: 25px;
-    }
-   .Immagine3{
-      margin-top: 550px;
-      max-width: 100%;
-      height: auto;
-       }
+.c-text {
+color: rgba(255, 168, 0, 1);
+font-weight: bold;
+}
 
-       
-@media only screen and (max-width: 600px) {
+/* Fine Css Gamplay */       
+@media only screen and (max-width: 400px) {
    /* Modifica lo stile del rettangolo per dispositivi mobili */
    .e1 h1{
       font-size: 10px;
@@ -684,7 +498,39 @@ img {
     padding: 10px 10px;
     color: #000000;
    }
-
+   .rectangle {
+      height: 130px; /* Modifica l'altezza del rettangolo per dispositivi mobili */
+      max-width: 100%;
+      margin: auto;
+      padding: auto;
+    }
+    .tsc h2 {
+        font-size: 90px;
+      }
+   .Testo3 p {
+   font-size: 15px;
+   line-height: 1.2;
+      }
+   .Testo4 p {
+   font-size: 15px;
+   line-height: 1.2;
+   }
+     .Testo5 p {
+      font-size: 15px;
+      line-height: 1.5;
+     }
+     .immagine-1
+     {
+      margin-top: 350px;
+   
+     }
+     .immagine-2
+     {
+      margin-top: 50px;
+     }
+     .header{
+      max-width: 100%;
+     }
 }    
 /*Storia Css*/
 .tsc1 h2{ 
