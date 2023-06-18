@@ -42,6 +42,7 @@ footer h5{
    background-color: #0B1B2B;
 }
 .text {
+
    max-width: 50px;
    margin: auto;
    padding: 0 16px;
@@ -289,12 +290,20 @@ font-size: 40px;
     } 
 /*Css Pagina gemplay*/  
 /*IDER 2*/
+.e1 h1 {
+   font-size: 1.2em;
+   padding: 19px;
+   background-color:  #0B1B2B;
+   text-decoration: none;
+   color: #ffffff;
+   text-align: center;
+}
 nav ul {
    margin:0;
    padding: 0;
    list-style-type: none;
    display: flex;
-   gap: 150px;
+   gap: 150px; /*spazione ider testi*/
 }
 nav ul ul{
    display: none;
@@ -321,7 +330,7 @@ nav ul li a{
    display: block;
    text-decoration: none;
    color: #000000;
-   padding: 15px 50px;
+   padding: 17px 17px;
    font-size: 1.2em;
    box-sizing: border-box;
    font-family: 'Bebas Neue';
@@ -401,7 +410,7 @@ img {
 .Testo4 p{
    position: absolute;
    width: 100%;
-   top: 3100px;
+   top: 3000px;
    font-family: 'Mukta';
    font-style: normal;
    font-weight: 400;
