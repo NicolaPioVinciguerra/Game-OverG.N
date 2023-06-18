@@ -20,16 +20,8 @@ header h1 {
    text-align: center;
    margin: 0px;  
 }
-.hero {
-   position: relative;
-}
 
-.hero img {
-   max-height: 100%;
-   width: 100%;
-   object-fit: cover;
-   object-position: center;
-}
+
 footer {
    background: #0B1B2B;/* Da fare il responsile e da mettere delle critte */
    padding: 25px;
@@ -41,44 +33,55 @@ footer h5{
    font-size: 50px;
    background-color: #0B1B2B;
 }
-.text {
+.hero {
+   position: relative;
+}
 
-   max-width: 50px;
+.hero img {
+   max-height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+.text {
+   max-width: 1450px;
    margin: auto;
    padding: 0 16px;
-}
-.hero h2 {/* Bisogna sistemare la scritta responsile  */
-   position: absolute;
-   color: rgb(255, 255, 255);
    left: 50px;
-   bottom: 320px;
+}
+
+.hero h2 {/* Bisogna sistemare la scritta responsile  */
+   font-size: 35px;
+   color: rgb(255, 255, 255); 
+   position: absolute;
+   text-align: center;
+   top: 580px;
    z-index: 100;
    margin: 0;
-   font-size: 25px;
+   bottom: 20px;
    font-family: 'Heebo';
-   font-style: light;
 }
 .hero h1 {/* Bisogna sistemare la scritta responsile */
-   position: absolute;
+   font-size: 30px; 
    color: rgb(255, 255, 255);
-   left: 50px;
-   bottom: 265px;
-   z-index: 100;
-   margin: 0;
-   font-size: 30px;
-   font-family: 'Heebo';
+   position: absolute;
+   text-align: center;
    font-style: mixed;
+   top: 630px;
+   z-index: 100; 
+   margin: 0;
+   font-family: 'Heebo';
 }
 .hero p {/* Bisogna sistemare la scritta responsile Mukta */
+   font-size: 20 px;
    position: absolute;
    color: rgb(255, 255, 255);
-   left: 50px;
-   bottom: 185px;
+   top: 680px;
    z-index: 100;
    margin: 0;
-   font-size: 20 px;
    font-family: 'Mukta';
    font-style: mixed;
+   
 }
 .hero0 {
    position: relative;
@@ -202,7 +205,7 @@ footer h5{
 }
 
 .hero3 img {
-   height: 100%;
+   max-height: 100%;
    width: 100%;
    object-fit: cover;
    object-position: center;
@@ -258,7 +261,20 @@ footer h5{
    .hero2 h2{
        font-size: 40px;
        }
-  
+   .hero h2{
+      font-size: 12px;
+      top: 160px;
+   } 
+  .hero h1{
+      font-size: 12px;
+      top: 190px;
+   } 
+   .hero p{
+      font-size: 12px;
+      top: 220px;
+   }    
+     
+
 }
            
 @media screen and  (max-width: 400px) {
@@ -291,7 +307,7 @@ font-size: 40px;
 /*Css Pagina gemplay*/  
 /*IDER 2*/
 .e1 h1 {
-   font-size: 1.2em;
+   font-size: 19px;
    padding: 19px;
    background-color:  #0B1B2B;
    text-decoration: none;
@@ -303,7 +319,7 @@ nav ul {
    padding: 0;
    list-style-type: none;
    display: flex;
-   gap: 150px; /*spazione ider testi*/
+   gap: 150px;/*responsile*/
 }
 nav ul ul{
    display: none;
@@ -331,13 +347,13 @@ nav ul li a{
    text-decoration: none;
    color: #000000;
    padding: 17px 17px;
-   font-size: 1.2em;
-   box-sizing: border-box;
+   font-size: 20px;/*responsile*/
    font-family: 'Bebas Neue';
-   font-size: x-large;
+
 }
 
 nav ul li:hover a{
+   margin-top: 3px;
    background: #ff0000;
    color: #fffdfd;
    text-decoration: none;
