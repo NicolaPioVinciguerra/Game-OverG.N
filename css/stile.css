@@ -484,7 +484,7 @@ nav ul li:hover a{
      }
    
 /* Fine Css Gamplay */       
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
    /* Modifica lo stile del rettangolo per dispositivi mobili */
    .e1 h1{
       font-size: 10px;
@@ -505,7 +505,6 @@ nav ul li:hover a{
       margin: auto;
       padding: auto;
     }
-    
     .tsc h2 {
         font-size: 30px;
       }
