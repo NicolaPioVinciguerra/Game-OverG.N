@@ -520,19 +520,34 @@ nav ul li:hover a{
      .Testo5 p {
       font-size: 15px;
       line-height: 1.5;
+    }
+     .immagin{
+      margin-top: 200px;
      }
-     .immagine-1
-     {
-      margin-top: 350px;
-   
+     .immagin2{
+      margin-top: 330px;
      }
-     .immagine-2
-     {
-      margin-top: 50px;
+     .immagin3{
+      margin-top: 30px;
      }
-     .header{
+   .header{
       max-width: 100%;
      }
+     .Container{
+   margin: 0;
+   padding: 10px;
+  }
+  .Container2{
+   margin: 0;
+   padding: 10px;
+}
+.Container3{
+   margin: 0;
+   padding: 10px;
+}
+.header{
+max-width: 100%;
+  }
 }    
 /*Storia Css*/
 .tsc1 h2{ 
