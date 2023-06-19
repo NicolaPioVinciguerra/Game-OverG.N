@@ -502,7 +502,7 @@ section.heroo h1 {
 max-width: 100%;
   }
 }   
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
    /* Modifica lo stile del rettangolo per dispositivi mobili */
    header {
       flex-direction: column;
