@@ -22,7 +22,7 @@ header h1 {
    padding: 50px;
    background-color: #0B1B2B;
    text-decoration: none;
-   color: #fffdfd;
+   color: #ffffff;
    text-align: center;
    margin: 0px;  
 }
@@ -488,24 +488,26 @@ nav ul li:hover a{
    /* Modifica lo stile del rettangolo per dispositivi mobili */
    .e1 h1{
       font-size: 10px;
-      padding: 10px;   
+      padding: 10px;
+     
    }
    nav ul {
-      gap: 3px;/*responsile*/
+      gap: 1.2px;/*responsile*/
    }
    nav ul li a{
     font-size: 10px;/*responsile*/
-    padding: 10px 10px;
+    padding: 10px 16px;
     color: #000000;
    }
    .rectangle {
-      height: 130px; /* Modifica l'altezza del rettangolo per dispositivi mobili */
+      height: 70px; /* Modifica l'altezza del rettangolo per dispositivi mobili */
       max-width: 100%;
       margin: auto;
       padding: auto;
     }
+    
     .tsc h2 {
-        font-size: 90px;
+        font-size: 30px;
       }
    .Testo3 p {
    font-size: 15px;
