@@ -163,7 +163,7 @@ object-position: center;
 
 .hero2 .Immagi :before {
    content: "";
-   background-color: rgba(0, 2, 33, 0.4);
+   background-color: rgba(4, 13, 136, 0.56);
    position: absolute;
    top: 0;
    left: 0;
@@ -359,7 +359,7 @@ header nav ul {
 /*FINE IDER  COD*/
 /*Css scritte iniziali pagine*/
 section.heroo {
-   background-color: rgba(1, 0, 38, 1); 
+   background-color: rgb(2, 1, 31); 
    text-align: center;
 }
 section.heroo h1 {
