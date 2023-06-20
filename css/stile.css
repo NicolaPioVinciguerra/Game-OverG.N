@@ -230,11 +230,11 @@ footer {
 width: 20%;
  }
  .Col {
-font-size: 2px;
+font-size: 1px;
  }
 .herok h2{
 font-size: 8px; 
-bottom: 50px;
+bottom: 60px;
  }   
 
 .herok p{
@@ -262,7 +262,7 @@ font-size: 25px;
    }
   .herok h2{
   font-size: 25px; 
-  /*bottom: 50px;*/
+ bottom: 60px;
    }   
   .herok p{
   font-size: 10px; 
@@ -281,6 +281,11 @@ font-size: 25px;
    }   
   }         
   @media screen and  (max-width: 500px) {
+   .immag{
+    max-width: 100%;
+    height: 100%;
+    display: block; 
+}
    header {
       flex-direction: column;
       gap: 10px;
@@ -296,7 +301,7 @@ font-size: 25px;
    }
   .herok h2{
   font-size: 18px; 
-  bottom: 60px;
+   bottom: 60px;
    }   
   
   .herok p{
