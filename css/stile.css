@@ -1,11 +1,12 @@
-@import url(font.css); 
+
+
 body {
    background: #fffdfd;
    display: block;
    margin: 0;
    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-/*Css Gome Fine*/
+/*Css Home*/
 .immag{
     max-width: 100%;
     height: 100%;
@@ -232,7 +233,7 @@ object-position: center;
 width: 20%;
  }
  .Col {
-font-size: 1px;
+font-size: 5px;
  }
 .herok h2{
 font-size: 8px; 
@@ -283,6 +284,12 @@ font-size: 25px;
    }   
 }         
   @media screen and  (max-width: 500px) {
+   .iman  {
+      width: 20%;
+       }
+       .Col {
+      font-size: 10px;
+       }
    header {
       flex-direction: column;
       gap: 10px;
