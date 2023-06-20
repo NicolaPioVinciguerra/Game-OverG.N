@@ -28,16 +28,21 @@ footer {
 .iman{
   width: 30%;
   float: left;
-
   display: flex;
   justify-content: center;
   margin: 0;
 }
 /*Testo Home*/
+.Immagi{
+height: auto;
+width: 100%;
+object-fit: cover;
+object-position: center;
+}
 .herok {
    position: relative;
 }
-.herok .iman{
+.herok .immag{
    max-height: 100%;
    width: 100%;
    object-fit: cover;
@@ -279,7 +284,7 @@ font-size: 25px;
    .hero3 h2{
   font-size: 25px;  
    }   
-  }      
+  }         
   @media screen and  (max-width: 500px) {
    header {
       flex-direction: column;
