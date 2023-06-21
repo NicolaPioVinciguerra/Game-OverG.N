@@ -646,16 +646,16 @@ color: #FFA800;
 }
 .titolo01 h1{
    font-size: 25px;
-   margin: 70px 0px;
+   margin: 90px 0px;
 }
 .titolo02 h1{
    font-size: 20px;
-   margin: 270px 0px;
+   margin: 300px 0px;
    
 }
 .titolo03 h1{
    font-size: 20px;
-   margin: 70px 0px;
+   margin: 0px 0px;
 }
    .Testo2 p {
       font-size: 15px;
@@ -674,21 +674,21 @@ color: #FFA800;
       line-height: 1.5;
     }
      .immagin{
-      margin-top: 120px;
+      margin-top: 140px;
      }
      .immagin2{
-      margin-top: 330px;
+      margin-top: 360px;
      }
      .immagin3{
-      margin-top: 120px; 
+      margin-top: 60px; 
      }
    
-     .Container{
-   margin: 0;
-   padding: 10px;
-  }
-  
-
+   .Container{/*Testo*/
+      margin: 10px 20px;  
+   } 
+   .Container1{/*Testo*/
+      margin: 10px 20px;  
+   }  
 .header{
 max-width: 100%;
   }
@@ -938,10 +938,10 @@ color: #FFA800;
          margin-top: 50px;
       } 
       .Container2{/*Testo*/
-         margin: 10px 40px;  
+         margin: 10px 20px;  
       } 
       .Container3{/*Testo*/
-         margin: 10px 40px;  
+         margin: 10px 20px;  
       }             
    }
 /*Css Esplorazione fine *
@@ -1145,9 +1145,9 @@ color: #FFA800;
             margin-top: 80px;
          } 
          .Container4{/*Testo*/
-            margin: 10px 40px;  
+            margin: 10px 20px;  
          } 
          .Container5{/*titolo*/
-            margin: 10px 40px;  
+            margin: 10px 20px;  
          }             
       }/*da vedere se fumziona*/
