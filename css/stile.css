@@ -37,7 +37,7 @@ footer {
   font-size: 30px;
   float: left;
   margin: 10px;
-  padding: 20px;
+  padding:0  40px;
 }
 /*Testo Home*/
 .Immagi{
@@ -572,7 +572,7 @@ color: #FFA800;
    line-height: 1.0;
    }
      .Testo5 p {
-      font-size: 15px;
+      font-size: 17px;
       line-height: 1.0;
     }
      .immagin{
