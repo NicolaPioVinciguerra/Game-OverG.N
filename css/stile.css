@@ -292,24 +292,8 @@ font-size: 25px;
    }   
 } 
 /*prototipo nuovo resp*/
-@media (max-width: 600px) { 
-   .Container {
-       flex-direction: column; 
-   }
-   .Container .testo {
-       width: 100%;
-   }
-   .Container .immagine {
-       width: 100%;
-   }
-}
-@media (max-width: 400px) { /* se la finestra ha una larghezza minore di 400px, fai lo sfondo verde. Questa istruzione sovrascrive la precedente, se la cancello lo sfondo sarà sempre giallo */
-   
-   header {
-       flex-direction: column;
-       gap: 10px;
-   }
-}
+
+
 /*Fine prototipo*/
 /*Css Gome Fine*/
 /*IDER */
@@ -440,5 +424,22 @@ main, .Container {
    color: rgba(255, 168, 0, 1);
    font-weight: bold;
    }
+   @media (max-width: 600px) { 
+
+   .Container  {
+       flex-direction: column; 
+   }
+   .Container .testo {
+       width: 100%;
+   }
+   .Container .immagine {
+       width: 100%;
+   }
+}
 /*Fine Css Pagine*/   
- 
+@media (max-width: 400px) { 
+   header {
+       flex-direction: column;
+       gap: 10px;
+   }
+}
