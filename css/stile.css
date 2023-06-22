@@ -407,7 +407,6 @@ main, .Container {
 .Container h2{
    font-size: 30px;
    color: rgb(255, 168, 0);
-   text-align: center;
 }
 .Container .immagine {
    max-width: 100%; /*Immagine*/
