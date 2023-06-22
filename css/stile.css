@@ -430,10 +430,10 @@ main, .Container {
        flex-direction: column; 
    }
    .Container .testo {
-       width: 100%;
+       width: 90%;
    }
    .Container .immagine {
-       width: 100%;
+       width: 90%;
    }
 }
 /*Fine Css Pagine*/   
