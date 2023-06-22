@@ -281,7 +281,7 @@ font-size: 25px;
       width: 90%;
   }
   .Container .immagine {
-      width: 90%;
+    width: 90%;
   }
    .in {
       font-size: 15px;
@@ -296,9 +296,7 @@ font-size: 25px;
   header  a{
   font-size: 15px;
 }
-   .iman  {
-  width: 35%;
-   }
+
    .Col {
   font-size: 12px;
    }
@@ -322,11 +320,6 @@ font-size: 25px;
   font-size: 25px;  
    }   
 } 
-/*prototipo nuovo resp*/
-
-
-/*Fine prototipo*/
-/*Css Gome Fine*/
 /*IDER */
 header a {
    text-decoration: none;
@@ -454,6 +447,5 @@ main, .Container {
    color: rgba(255, 168, 0, 1);
    font-weight: bold;
    }
-
 /*Fine Css Pagine*/   
 
