@@ -1,5 +1,5 @@
 @font-face {
-   font-family: "OpenSans" ;
+   font-family: "Opensans";
    src: url(../font/OpenSans-Regular.woff);
 }
 @font-face {
@@ -30,11 +30,13 @@ footer  {
    align-items: center;
  }
  h4 {
+font-family: "soehne"; 
 text-align: center;
 margin-bottom:40px;
 color: #ffffff;
  }
  h3 {
+font-family: "soehne";
 text-align: center;
 font-size: 20px;
 font-weight: bold;
@@ -81,10 +83,11 @@ object-position: center;
    height: 100%;
 }
 .text0 {
+   font-family: "soehne";
    max-width: 10px;
    margin: 0;
    padding: 0 16px;
-
+   font-family: "soehne";
 }
 .hero0 h2 {
    font-size: 50px;
@@ -95,8 +98,7 @@ object-position: center;
    color: white;
    z-index: 100;
    margin: 0;
-   font-family: 'Bebas Neue';
-   font-style: normal;
+   font-family: "soehne";
 }
 .hero1 {
    position: relative;
@@ -120,6 +122,7 @@ object-position: center;
    max-width: 10px;
    margin: auto;
    padding: 0 16px;
+   font-family: "soehne";
 }
 .hero1 h2 {
    font-size: 50px;
@@ -130,8 +133,7 @@ object-position: center;
    color: white;
    z-index: 100;
    margin: 0;
-   font-family: 'Bebas Neue';
-   font-style: normal;
+   font-family: "soehne";
 }
 .hero2 {
    position: relative;
@@ -165,8 +167,7 @@ object-position: center;
    color: white;
    z-index: 100;
    margin: 0;
-   font-family: 'Bebas Neue';
-   font-style: normal;
+   font-family: "soehne";;
 }
 .hero3 {
    position: relative;
@@ -200,8 +201,7 @@ object-position: center;
    color: white;
    z-index: 100;
    margin: 0;
-   font-family: 'Bebas Neue';
-   font-style: normal;
+   font-family: "soehne";
 }
 
 @media screen and  (max-width: 320px) {
@@ -324,6 +324,7 @@ font-size: 25px;
 header a {
    text-decoration: none;
    color: #ffffff;
+   font-family: "soehne";
 }
 header a:hover {
    color: #f00;
@@ -340,6 +341,7 @@ header {
    background-color: #062039;
 }
 header p {
+   font-family: "soehne";
    margin: 0;
    font-weight: bold;
    text-transform: uppercase;
@@ -359,6 +361,7 @@ section.heroo {
    text-align: center;
 }
 section.heroo h1 {
+   font-family: "soehne";
    margin: 0;
    padding: 40px 10px;
    font-size: 40px;
@@ -370,6 +373,7 @@ section.heroo1 {
 }
 section.heroo1 h1 {
    margin: 0;
+   font-family: "soehne";
    padding: 40px 10px;
    font-size: 40px;
    color: rgba(253, 253, 253, 0.9);
@@ -380,6 +384,7 @@ section.heroo2 {
 }
 section.heroo2 h1 {
    margin: 0;
+   font-family: "soehne";
    padding: 40px 10px;
    font-size: 40px;
    color: rgba(253, 253, 253, 0.9);
@@ -390,6 +395,7 @@ section.heroo3 {
 }
 section.heroo3 h1 {
    margin: 0;
+   font-family: "soehne";
    padding: 40px 10px;
    font-size: 40px;
    color: rgba(253, 253, 253, 0.9);
@@ -400,6 +406,7 @@ section.heroo4 {
 }
 section.heroo4 h1 {
    margin: 0;
+   font-family: "soehne";
    padding: 40px 10px;
    font-size: 40px;
    color: rgb(255, 255, 255);
@@ -410,6 +417,7 @@ section.heroo5 {
 }
 section.heroo5 h1 {
    margin: 0;
+   font-family: "soehne";
    padding: 40px 10px;
    font-size: 40px;
    color: rgba(253, 253, 253, 0.9);
@@ -425,18 +433,20 @@ main, .Container {
    padding: 20px;
 }
 .testo p{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
+font-family: "Opensans";
+color: rgb(0, 0, 0);
+font-size: 20px;
 }
 .Container h2{
    font-size: 30px;
    color: rgb(255, 168, 0);
+   font-family: "soehne";
 }
 .Container .immagine {
    max-width: 100%; /*Immagine*/
 }
 .immagine .testo {
-       width: 70%;
+width: 70%;
 }
 .immagine .frame{
       padding: 8px;
