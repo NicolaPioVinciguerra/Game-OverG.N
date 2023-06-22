@@ -39,7 +39,6 @@ footer {
   margin: 10px;
   padding: 20px;
 }
-/*Testo Home*/
 .Immagi{
 height: auto;
 width: 100%;
@@ -55,41 +54,15 @@ object-position: center;
    object-fit: cover;
    object-position: center;
 }
-.textk {
-   max-width: 100%;
-   margin: auto;
-   padding: 0 16px;
-}
-.herok h2 {
-   position: absolute;
-   color: white;
-   text-align: center;
-   z-index: 100;
-   margin: 0;
-   bottom: 100px;
-   font-size: 40px;
-   font-family: 'Heebo';
-}
-.herok p {
-   position: absolute;
-   color: rgb(255, 255, 255);
-   z-index: 100;
-   margin: 0;
-   bottom: 20px;
-   font-size: 15px;
-}
-/*Testo Home fine*/
 .hero0 {
    position: relative;
 }
-
 .hero0 .immag {
    height: 100%;
    width: 100%;
    object-fit: cover;
    object-position: center;
 }
-
 .hero0 .Immagi :before {
    content: "";
    background-color: rgba(255, 247, 0, 0.4);
@@ -105,7 +78,6 @@ object-position: center;
    padding: 0 16px;
 
 }
-
 .hero0 h2 {
    font-size: 50px;
    position: absolute;
@@ -121,14 +93,12 @@ object-position: center;
 .hero1 {
    position: relative;
 }
-
 .hero1 .immag{
    height: 100%;
    width: 100%;
    object-fit: cover;
    object-position: center;
 }
-
 .hero1 .Immagi :before {
    content: "";
    background-color: rgba(184, 16, 4, 0.286);
@@ -143,7 +113,6 @@ object-position: center;
    margin: auto;
    padding: 0 16px;
 }
-
 .hero1 h2 {
    font-size: 50px;
    position: absolute;
@@ -156,18 +125,15 @@ object-position: center;
    font-family: 'Bebas Neue';
    font-style: normal;
 }
-
 .hero2 {
    position: relative;
 }
-
 .hero2 .immag {
    height: 100%;
    width: 100%;
    object-fit: cover;
    object-position: center;
 }
-
 .hero2 .Immagi :before {
    content: "";
    background-color: rgba(4, 13, 136, 0.56);
@@ -182,7 +148,6 @@ object-position: center;
    margin: auto;
    padding: 0 16px;
 }
-
 .hero2 h2 {
    font-size: 50px;
    position: absolute;
@@ -195,18 +160,15 @@ object-position: center;
    font-family: 'Bebas Neue';
    font-style: normal;
 }
-
 .hero3 {
    position: relative;
 }
-
 .hero3 .immag {
    max-height: 100%;
    width: 100%;
    object-fit: cover;
    object-position: center;
 }
-
 .hero3 .Immagi :before {
    content: "";
    background-color: rgba(3, 89, 3, 0.4);
@@ -233,7 +195,7 @@ object-position: center;
    font-family: 'Bebas Neue';
    font-style: normal;
 }
-  
+
 @media screen and  (max-width: 320px) {
  .in {
 font-size: 8px;
@@ -289,7 +251,7 @@ font-size: 25px;
   font-size: 25px;  
    }   
 }         
-  @media screen and  (max-width: 500px) {
+@media screen and  (max-width: 500px) {
    .in {
       font-size: 15px;
        }
@@ -329,6 +291,26 @@ font-size: 25px;
   font-size: 25px;  
    }   
 } 
+/*prototipo nuovo resp*/
+@media (max-width: 600px) { 
+   .Container {
+       flex-direction: column; 
+   }
+   .Container .testo {
+       width: 100%;
+   }
+   .Container .immagine {
+       width: 100%;
+   }
+}
+@media (max-width: 400px) { /* se la finestra ha una larghezza minore di 400px, fai lo sfondo verde. Questa istruzione sovrascrive la precedente, se la cancello lo sfondo sarà sempre giallo */
+   
+   header {
+       flex-direction: column;
+       gap: 10px;
+   }
+}
+/*Fine prototipo*/
 /*Css Gome Fine*/
 /*IDER */
 header a {
@@ -425,630 +407,38 @@ section.heroo5 h1 {
    color: rgba(253, 253, 253, 0.9);
 }
 /*Css scritte iniziali pagine*/
-/*Css Pagina gemplay*/  
-.immagin{
-   display: block;
-   width: 65%;
-   height: auto;
-   margin: 0 auto;
-   margin-top: 410px;   
+/*Css Pagine*/  
+img {
+   max-width: 100%; 
 }
-.frame .immagin{
-   padding: 8px;
-   border: 3px solid;
-   border-color:rgba(204, 160, 75, 1);
+main, .Container {
+   max-width: 1000px;
+   margin: auto; 
+   padding: 20px;
 }
-.immagin2{
-   display: block;
-   width: 65%;
-   height: auto;
-   margin: 0 auto;
-   margin-top: 600px;
+.testo p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
 }
-.frame .immagin2{
-   padding: 8px;
-   border: 3px solid;
-   border-color:rgba(204, 160, 75, 1);
+.Container h2{
+   font-size: 30px;
+   color: rgb(255, 168, 0);
+   text-align: center;
 }
-.immagin3{
-   display: block;
-   width: 65%;
-   height: auto;
-   margin: 0 auto;
-   margin-top: 240px;   
+.Container .immagine {
+   max-width: 100%; /*Immagine*/
 }
-.frame .immagin3{
-   padding: 8px;
-   border: 3px solid;
-   border-color:rgba(204, 160, 75, 1);
+.immagine .testo {
+       width: 70%;
 }
-.Container{/*Testo*/
-   display: block;
-   max-width: 1200px;
-   margin: 40px auto;  
+.immagine .frame{
+      padding: 8px;
+      border: 3px solid;
+      border-color:rgba(204, 160, 75, 1);
 }
-.Container1{  /*Titolo*/
-   display: block;
-   max-width: 1200px;
-   margin: 40px auto;  ; 
-} 
-.titolo01 h1{
-margin: 250px 0px;
-position: absolute;
-font-family: 'Mukta';
-font-style: normal;
-font-weight: 400;
-font-size: 70px;
-line-height: 1.3;
-color: #FFA800;
-}
-.titolo02 h1{
-margin: 400px 0px;
-position: absolute;
-font-family: 'Mukta';
-font-style: normal;
-font-weight: 400;
-font-size: 70px;
-line-height: 2.3;
-color: #FFA800;
-}
-.titolo03 h1{
-   margin: 100px 0px;
-   position: absolute;
-   font-family: 'Mukta';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 70px;
-   line-height: 1.3;
-   color: #FFA800;
-   }
-.Testo2 p{
-   position: absolute;
-   font-family: 'Mukta';
-   font-style: normal;
-   font-size: 35px;
-   line-height: 1.3;
-   }
-.Testo3 p{
-   position: absolute;
-   font-family: 'Mukta';
-   font-style: normal;
-   font-size: 35px;
-   line-height: 1.3;
-   }
-.Testo4 p{ 
-   width: 100%;
-   font-family: 'Mukta';
-   font-style: normal;
-   font-size: 35px;
-   line-height: 0.9;
-   } 
-   .Testo5 p{
-   font-family: 'Mukta';
-   font-style: normal;
-   font-size: 35px;
-   line-height: 40px;
-   margin-bottom: 100px;
-   }  
-   .c-text {
+.c-text {
    color: rgba(255, 168, 0, 1);
    font-weight: bold;
    }
-@media only screen and (max-width: 500px) {
-   section.heroo3 h1 {
-      padding: 5px 5px;
-      font-size: 20px;
-   }
-   header {
-      flex-direction: column;
-      gap: 10px;
-  }
-  header a {
-   font-size: 10px;
-}
-.titolo01 h1{
-   font-size: 25px;
-   margin: 90px 0px;
-}
-.titolo02 h1{
-   font-size: 20px;
-   margin: 300px 0px;
-   
-}
-.titolo03 h1{
-   font-size: 20px;
-   margin: 0px 0px;
-}
-   .Testo2 p {
-      font-size: 17px;
-      line-height: 1.0;
-            }
-   .Testo3 p {
-      font-size: 17px;
-   line-height: 1.0;
-      } 
-   .Testo4 p {
-   font-size: 17px;
-   line-height: 1.0;
-   }
-     .Testo5 p {
-      font-size: 15px;
-      line-height: 1.0;
-    }
-     .immagin{
-      margin-top: 140px;
-     }
-     .immagin2{
-      margin-top: 360px;
-     }
-     .immagin3{
-      margin-top: 60px; 
-     }
-   
-   .Container{/*Testo*/
-      margin: 10px 20px;  
-   } 
-   .Container1{/*Testo*/
-      margin: 10px 20px;  
-   }  
-.header{
-max-width: 100%;
-  }
-}
-/* Fine Css Gamplay */   
- /*Css Esplorazione*/
-.immagin01{
-   display: block;
-   width: 80%;
-   height: auto;
-   margin: 0 auto;
-   margin-top: 210px;   
-}
-.frame .immagin01{
-   padding: 8px;
-   border: 3px solid;
-   border-color:rgba(204, 160, 75, 1);
-}
-.immagin02{
-   display: block;
-   width: 80%;
-   height: auto;
-   margin: 0 auto;
-   margin-top: 210px;
-    
-}
-.frame .immagin02{
-   padding: 8px;
-   border: 3px solid;
-   border-color:rgba(204, 160, 75, 1);
-}
-.immagin03{
-   display: block;
-   width: 80%;
-   height: auto;
-   margin: 0 auto;
-   margin-top: 130px;   
-}
-.frame .immagin03{
-   padding: 8px;
-   border: 3px solid;
-   border-color:rgba(204, 160, 75, 1);
-}
-.Container2{/*Testo*/
-   display: block;
-   max-width: 1200px;
-   margin: 10px 80px;  
-}
-.Container3{  /*Titolo*/
-   display: block;
-   max-width: 1200px;
-   margin: 10px 80px; 
-}
-.titolo04 h1{/*Css Fatto*/
-margin: 80px 0px;
-position: absolute;
-font-family: 'Mukta';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 1.3;
-color: #FFA800;
-}
-.titolo05 h1{/*Css Fatto*/
-margin: 60px 0px;
-position: absolute;
-font-family: 'Mukta';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 2.3;
-color: #FFA800;
-   }
-.titolo06 h1{/*Css Fatto*/
-margin: 0px 0px;
-position: absolute;
-font-family: 'Mukta';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 1.3;
-color: #FFA800;
-}
-.Testo6 p{
-   position: absolute;
-   font-family: 'Mukta';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 1.3;
-   }
-.Testo7 p{
-   position: absolute;
-   font-family: 'Mukta';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 1.3;
-   }
-.Testo8 p{ 
-   width: 100%;
-   font-family: 'Mukta';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 0.9;
-   } 
-.Testo9 p{
-   font-family: 'Mukta';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 30px;
-   line-height: 40px;
-   }
-   @media only screen and (max-width: 320px) {
-      /* Modifica lo stile del rettangolo per dispositivi mobili */
-      section.heroo2 h1 {
-         padding: 5px 5px;
-         font-size: 20px;
-      }
-      .header{
-         max-width: 100%;
-      }
-      .Container2{/*Testo*/
-         margin: 10px 10px;  
-      } 
-      .Container3{/*Testo*/
-         margin: 10px 10px;  
-      }
-      .titolo04 h1{
-         font-size: 10px;
-      }
-      .titolo05 h1{
-         font-size: 10px;
-      }
-      .titolo06 h1{
-         font-size: 8px;
-      }
-      .Testo6 p {
-         font-size: 8px;
-         line-height: 1.2;
-      }
-      .Testo7 p {
-         font-size: 8px;
-         line-height: 1.2;
-            } 
-         .Testo8 p {
-            font-size: 8px;
-         line-height: 1.2;
-         }
-         .Testo9 p {
-            font-size: 8px;
-            line-height: 1.0;
-          }   
-   }   
-   @media only screen and (max-width: 375px) {
-      header {
-         flex-direction: column;
-         gap: 10px;
-     }
-     header a {
-      font-size: 10px;
-   }
-   .in{
-      font-size: 10px;
-   }
-   .Col{
-      font-size: 10px;
-   }
-   .Container2{/*Testo*/
-      margin: 10px 20px;  
-   } 
-   .Container3{/*Testo*/
-      margin: 10px 20px;  
-   }
-   .titolo04 h1{
-      font-size: 15px;
-   }
-   .titolo05 h1{
-      font-size: 15px;
-   }
-   .titolo06 h1{
-      font-size: 15px;
-   }
-   .Testo6 p {
-      font-size: 10px;
-      line-height: 1.2;
-   }
-   .Testo7 p {
-      font-size: 10px;
-      line-height: 1.2;
-         } 
-      .Testo8 p {
-      font-size: 10px;
-      line-height: 1.2;
-      }
-      .Testo9 p {
-         font-size: 10px;
-         line-height: 1.0;
-       }  
-   } 
-   @media only screen and (max-width: 500px) {
-      header {
-         flex-direction: column;
-         gap: 10px;
-     }
-     header a {
-      font-size: 10px;
-   }
-   .header{
-   max-width: 100%;
-     }
-     .titolo04 h1{
-      font-size: 20px;
-   }
-   .titolo05 h1{
-      font-size: 20px;
-   }
-   .titolo06 h1{
-      font-size: 20px;
-   }
-   .Testo6 p {
-      font-size: 15px;
-      line-height: 1.2;
-   }
-   .Testo7 p {
-      font-size: 15px;
-      line-height: 1.2;
-         } 
-      .Testo8 p {
-      font-size: 15px;
-      line-height: 1.2;
-      }
-      .Testo9 p {
-         font-size: 15px;
-         line-height: 1.0;
-       }
-       .immagin01{
-         margin-top: 120px;
-        }
-      .immagin02{
-         margin-top: 110px;
-        }
-      .immagin03{
-         margin-top: 50px;
-      } 
-      .Container2{/*Testo*/
-         margin: 10px 20px;  
-      } 
-      .Container3{/*Testo*/
-         margin: 10px 20px;  
-      }             
-   }
-/*Css Esplorazione fine *
-/*Css Storia*/
-.immagin04{
-   display: block;
-   width: 80%;
-   height: auto;
-   margin: 0 auto;
-   margin-top: 210px;   
-}
-.frame .immagin04{
-   padding: 8px;
-   border: 3px solid;
-   border-color:rgba(204, 160, 75, 1);
-}
-.immagin05{
-   display: block;
-   width: 80%;
-   height: auto;
-   margin: 0 auto;
-   margin-top: 210px;
-    
-}
-.frame .immagin05{
-   padding: 8px;
-   border: 3px solid;
-   border-color:rgba(204, 160, 75, 1);
-}
-.immagin06{
-   display: block;
-   width: 80%;
-   height: auto;
-   margin: 0 auto;
-   margin-top: 130px;   
-}
-.frame .immagin06{
-   padding: 8px;
-   border: 3px solid;
-   border-color:rgba(204, 160, 75, 1);
-}
-.Container4{/*Testo*/
-   display: block;
-   max-width: 1200px;
-   margin: 10px 80px;  
-}
-.Container5{  /*Titolo*/
-   display: block;
-   max-width: 1200px;
-   margin: 10px 80px; 
-} 
-.titolo07 h1{
-   margin: 80px 0px;
-   position: absolute;
-   font-family: 'Mukta';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 40px;
-   line-height: 1.3;
-   color: #FFA800;
-}
-   .Testo10 p{
-      position: absolute;
-      font-family: 'Mukta';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 1.3;
-}
-   .Testo11 p{
-      position: absolute;
-      font-family: 'Mukta';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 1.3;
-      }
-   .Testo12 p{ 
-      width: 100%;
-      font-family: 'Mukta';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 0.9;
-      } 
-   .Testo13 p{
-      font-family: 'Mukta';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 40px;
-      }
-   @media only screen and (max-width: 320px) {
-         /* Modifica lo stile del rettangolo per dispositivi mobili */
-         section.heroo2 h1 {
-            padding: 5px 5px;
-            font-size: 20px;
-         }
-         .header{
-            max-width: 100%;
-         }
-         .titolo07 h1{
-            font-size: 10px;
-         }
-         .Testo10 p {
-            font-size: 8px;
-            line-height: 1.2;
-         }
-         .Testo11 p {
-            font-size: 8px;
-            line-height: 1.2;
-               } 
-            .Testo12 p {
-               font-size: 8px;
-            line-height: 1.2;
-            }
-            .Testo13 p {
-               font-size: 8px;
-               line-height: 1.0;
-             }   
-      }   
-@media only screen and (max-width: 375px) {
-         header {
-            flex-direction: column;
-            gap: 10px;
-        }
-        header a {
-         font-size: 10px;
-      }
-      .in{
-         font-size: 10px;
-      }
-      .Col{
-         font-size: 10px;
-      }
-      .Container4{/*Testo*/
-         margin: 10px 20px;  
-      } 
-      .Container5{/*Titolo*/
-         margin: 10px 20px;  
-      }  
-      .titolo07 h1{
-         font-size: 15px;
-      }
-      .Testo10 p {
-         font-size: 10px;
-         line-height: 1.2;
-      }
-      .Testo11 p {
-         font-size: 10px;
-         line-height: 1.2;
-            } 
-         .Testo12 p {
-         font-size: 10px;
-         line-height: 1.2;
-         }
-         .Testo13 p {
-            font-size: 10px;
-            line-height: 1.0;
-          } 
-         
-} 
- @media only screen and (max-width: 500px) {
-   header {
-            flex-direction: column;
-            gap: 10px;
-        }
-   header a {
-         font-size: 10px;
-      }
-      .header{
-      max-width: 100%;
-        }
-        .titolo07 h1{
-         font-size: 20px;
-         margin-top: 120px;
-      }
-      .Testo10 p {
-         font-size: 15px;
-         line-height: 1.2;
-      }
-      .Testo11 p {
-         font-size: 15px;
-         line-height: 1.2;
-            } 
-         .Testo12 p {
-         font-size: 15px;
-         line-height: 1.2;
-         }
-         .Testo13 p {
-            font-size: 15px;
-            line-height: 1.0;
-          }
-         .immagin04{
-            margin-top: 160px;
-           }
-         .immagin05{
-            margin-top: 230px;
-           }
-         .immagin06{
-            margin-top: 80px;
-         } 
-         .Container4{/*Testo*/
-            margin: 10px 20px;  
-         } 
-         .Container5{/*titolo*/
-            margin: 10px 20px;  
-         } 
- }               
-      /*da vedere se fumziona*/
+/*Fine Css Pagine*/   
+ 
