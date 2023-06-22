@@ -259,7 +259,30 @@ font-size: 25px;
   font-size: 25px;  
    }   
 }         
-@media screen and  (max-width: 500px) {
+@media screen and  (max-width: 600px) {
+   .left-image img, .right-image img{
+      width: 50px;
+      height: auto;
+   }
+   h3{
+      font-size: 15px;   
+   }
+   h4{
+      font-size: 15px;  
+   }
+   header {
+      flex-direction: column;
+      gap: 10px;
+  }
+   .Container  {
+      flex-direction: column; 
+  }
+  .Container .testo {
+      width: 90%;
+  }
+  .Container .immagine {
+      width: 90%;
+  }
    .in {
       font-size: 15px;
        }
@@ -431,22 +454,6 @@ main, .Container {
    color: rgba(255, 168, 0, 1);
    font-weight: bold;
    }
-   @media (max-width: 600px) { 
 
-   .Container  {
-       flex-direction: column; 
-   }
-   .Container .testo {
-       width: 90%;
-   }
-   .Container .immagine {
-       width: 90%;
-   }
-}
 /*Fine Css Pagine*/   
-@media (max-width: 400px) { 
-   header {
-       flex-direction: column;
-       gap: 10px;
-   }
-}
+
