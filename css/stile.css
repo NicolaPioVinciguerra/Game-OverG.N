@@ -23,9 +23,10 @@ body {
 footer  {
    background: #15212D; 
    padding: 20px;
+   margin-top: 90px;
 }
 .left-image{
-   width: 250px;
+   width: 150px;
    margin: 20px 20px ;
 }
 .footer-content {
@@ -38,6 +39,7 @@ font-family: 'Arial Narrow Bold', sans-serif; /*testo */
 text-align: center;
 margin-bottom:40px;
 color: #ffffff;
+font-size: 50px;
  }
  h3 {
 font-family: 'Arial Narrow Bold', sans-serif; /*testo */
