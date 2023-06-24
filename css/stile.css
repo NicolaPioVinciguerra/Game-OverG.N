@@ -203,61 +203,7 @@ object-position: center;
    font-family: 'Arial Narrow Bold', sans-serif; /*testo */
 }
 
-@media screen and  (max-width: 320px) {
- .in {
-font-size: 8px;
- }
- .Col {
-font-size: 5px;
- }
-.herok h2{
-font-size: 8px; 
-bottom: 60px;
- }   
-
-.herok p{
-font-size: 4px; 
- } 
- .hero0 h2{
-font-size: 25px; 
- } 
- .hero1 h2{
-font-size: 25px; 
- }  
- .hero2 h2{
-font-size: 25px; 
- } 
- .hero3 h2{
-font-size: 25px;  
- }   
-}
-@media screen and  (max-width: 375px) {
-   .in {
-      font-size: 12px;
-   }
-   .Col {
-  font-size: 10px;
-   }
-  .herok h2{
-  font-size: 25px; 
- bottom: 60px;
-   }   
-  .herok p{
-  font-size: 10px; 
-   } 
-   .hero0 h2{
-  font-size: 25px; 
-   } 
-   .hero1 h2{
-  font-size: 25px; 
-   }  
-   .hero2 h2{
-  font-size: 25px; 
-   } 
-   .hero3 h2{
-  font-size: 25px;  
-   }   
-}         
+   
 @media screen and  (max-width: 600px) {
    .left-image{
    width: 600px;
