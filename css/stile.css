@@ -1,12 +1,4 @@
-@font-face {
-   font-family: "Opensans";
-   src: url(../font/OpenSans-Regular.woff);
-}
-@font-face {
-   font-family: "soehne";
-   src: url(../font/soehne-test-buch.woff);
-   font-weight:bold;
-}
+
 body {
    background: #fffdfd;
    display: block;
@@ -129,7 +121,7 @@ object-position: center;
    max-width: 10px;
    margin: auto;
    padding: 0 16px;
-   font-family: "soehne";
+   font-family: 'Arial Narrow Bold', sans-serif; /*testo */;
 }
 .hero1 h2 {
    font-size: 70px;
