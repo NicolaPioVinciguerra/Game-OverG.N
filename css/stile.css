@@ -203,7 +203,7 @@ object-position: center;
    font-family: 'Arial Narrow Bold', sans-serif; /*testo */
 }
 
-   
+     
 @media screen and  (max-width: 600px) {
    .left-image{
    width: 600px;
