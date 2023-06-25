@@ -307,10 +307,11 @@ img {
    max-width: 100%; 
    display: block;
 }
-main, .Container  {
+main, .Container{
    max-width: 1000px;
    margin: auto; 
    padding: 20px;
+   
 }
 .testo p{
 font-family: Helvetica;
@@ -323,7 +324,7 @@ font-size: 20px;
    font-family: 'Arial Narrow Bold', sans-serif;
 }
 .Container .immagine {
-   max-width: 100%; /*Immagine*/
+   max-width: 93%; /*Immagine*/
 }
 .immagine .testo {
 width: 100%;
