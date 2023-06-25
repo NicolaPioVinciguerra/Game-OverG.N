@@ -14,7 +14,6 @@ body {
 footer  {
    background: #15212D; 
    padding: 20px;
-
 }
 .left-image{
    width: 150px;
@@ -25,6 +24,7 @@ footer  {
    justify-content: center;
    align-items: center;
  }
+ 
  h4 {
 font-family: 'Arial Narrow Bold', sans-serif; /*testo */ 
 text-align: center;
@@ -307,7 +307,7 @@ img {
    max-width: 100%; 
    display: block;
 }
-main, footer, .Container {
+main, .Container {
    max-width: 1000px;
    margin: auto; 
    padding: 20px;
