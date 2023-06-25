@@ -353,29 +353,9 @@ width: 100%;
       flex-direction: column;
       gap: 10px;
   }
-   .Container  {
-      flex-direction: column; 
-  }
-  .Container .testo {
-      width: 90%;
-  }
- 
-   .in {
-      font-size: 15px;
-       }
-       .Col {
-      font-size: 10px;
-       }
-   header {
-      flex-direction: column;
-      gap: 10px;
-  }
   header  a{
   font-size: 15px;
 }
-   .Col {
-  font-size: 12px;
-   }
   .herok h2{
   font-size: 18px; 
    bottom: 65px;
