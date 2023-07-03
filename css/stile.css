@@ -1,6 +1,6 @@
 
 body {
-   background: #fffdfd;
+   background-color: rgb(220, 220, 220);
    display: block;
    margin: 0;
    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -303,6 +303,9 @@ section.heroo5 h1 {
 }
 /*Css scritte iniziali pagine*/
 /*Css Pagine*/  
+main{
+  background-color: #ffffff;
+}
 img {
    max-width: 100%; 
    display: block;
