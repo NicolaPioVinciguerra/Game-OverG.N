@@ -16,7 +16,11 @@ footer  {
    padding: 20px;
 }
 .left-image{
-   width: 150px;
+   width: 350px;
+   margin: 20px 20px ;
+}
+.left-image01{
+   width: 550px;
    margin: 20px 20px ;
 }
 .footer-content {
@@ -24,13 +28,17 @@ footer  {
    justify-content: center;
    align-items: center;
  }
- 
- h4 {
+ .footer-content01 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+p {
+margin: 20px 20px ;
 font-family: 'Arial Narrow Bold', sans-serif; /*testo */ 
-text-align: center;
 margin-bottom:40px;
 color: #ffffff;
-font-size: 40px;
+font-size: 30px;
  }
  h3 {
 font-family: 'Arial Narrow Bold', sans-serif; /*testo */
@@ -347,10 +355,14 @@ width: 100%;
    width: 600px;
    margin: 2.5px 2.5px ;
 }
+.left-image01{
+   width: 600px;
+   margin: 2.5px 2.5px ;
+}
    h3{
       font-size: 15px;   
    }
-   h4{
+   p{
       font-size: 15px;  
    }
    header {
