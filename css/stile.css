@@ -18,11 +18,7 @@ footer  {
    padding: 20px;
 }
 .left-image{
-   width: 350px;
-   margin: 20px 20px ;
-}
-.left-image01{
-   width: 550px;
+   width: 300px;
    margin: 20px 20px ;
 }
 .footer-content {
@@ -379,7 +375,7 @@ width: 100%;
    font-weight: bold;
    }
 /*Fine Css Pagine*/
-@media screen  and (max-width:850px){
+@media screen  and (max-width:850px){/*Menu H*/
    .menu  {
       flex-direction: column;
       align-items: center;
