@@ -4,6 +4,8 @@ body {
    display: block;
    margin: 0;
    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   --color1: #FFF ;
+   --color2: #181818 ;
 }
 .immag{
     max-width: 100%;
@@ -30,15 +32,14 @@ footer  {
  }
  .footer-content01 {
    display: flex;
-   justify-content: center;
-   align-items: center;
  }
 p {
-margin: 20px 20px ;
+margin: 20px auto ;
 font-family: 'Arial Narrow Bold', sans-serif; /*testo */ 
 margin-bottom:40px;
 color: #ffffff;
 font-size: 30px;
+line-height: 1.4;
  }
  h3 {
 font-family: 'Arial Narrow Bold', sans-serif; /*testo */
@@ -93,7 +94,6 @@ object-position: center;
    max-width: 10px;
    margin: 0;
    padding: 0 16px;
-   font-family: "soehne";
 }
 .hero0 h2 {
    font-size: 70px;
@@ -210,37 +210,64 @@ object-position: center;
    font-family: 'Arial Narrow Bold', sans-serif; /*testo */
 }
 /*IDER */
-header a {
-   text-decoration: none;
-   color: #ffffff;
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
-header a:hover {
-   color: #FFA800;
-}
-header a.attivo {
-   font-weight: bold;
-}
-header {
+.nav-bar {
+   width: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 20px;
-   background: #15212D; 
+   list-style: none;
+   position: relative;
+   background-color: #032A36;
+   padding: 12px 20px;
 }
-header p {
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */ 
-   margin: 0;
-   text-transform: uppercase;
+header a {
+   text-decoration: none;
    color: #ffffff;
 }
-header nav ul {
-   margin:0;
-   padding: 0;
-   list-style-type: none;
-   display: flex;
-   gap: 20px;
+.menu {display: flex;}
+.menu li {padding-left: 30px;}
+.menu li a {
+   display: inline-block;
+   text-decoration: none;
+   color: var(--color1);
+   text-align: center;
+   transition: 0.15s ease-in-out;
+   position: relative;
+   text-transform: uppercase;
 }
+.menu li a::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0;
+   height: 1px;
+   background-color: var(--color1);
+   transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after {width: 100%;}
+.open-menu , .close-menu {
+   position: absolute;
+   color: var(--color1);
+   cursor: pointer;
+   font-size: 1.5rem;
+   display: none;
+}
+.open-menu {
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+}
+.close-menu {
+   top: 20px;
+   right: 20px;
+}
+#check {display: none;}
 /*FINE IDER  COD*/
 /*Css scritte iniziali pagine*/
 section.heroo {
@@ -321,13 +348,15 @@ img {
 main, .Container{
    max-width: 1000px;
    margin: auto; 
-   padding: 20px;
-   
+   padding: 20px;  
 }
 .testo p{
 font-family: Helvetica;
 color: rgb(0, 0, 0);
 font-size: 20px;
+line-height: 1.4;
+margin: 20px auto 1.4rem auto;
+max-width:60ch;
 }
 .Container h2{
    font-size: 30px;
@@ -335,15 +364,15 @@ font-size: 20px;
    font-family: 'Arial Narrow Bold', sans-serif;
 }
 .Container .immagine {
-   max-width: 94%; /*Immagine*/
+   max-width: 100%; /*Immagine*/
 }
 .immagine .testo {
 width: 100%;
 }
 .immagine .frame{
-      padding: 8px;
-      border: 3px solid;
-      border-color:rgba(204, 160, 75, 1);
+   padding: 8px;
+   border: 3px solid;
+   border-color:rgba(204, 160, 75, 1);
 }
 .c-text {
    color: rgba(255, 168, 0, 1);
@@ -351,23 +380,45 @@ width: 100%;
    }
 /*Fine Css Pagine*/   
 @media screen and  (max-width: 600px) {
-   .left-image{
-   width: 600px;
-   margin: 2.5px 2.5px ;
+  .menu  {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      z-index: 100; 
+      background-color: #15212D; 
+      transition: all 0.2s ease-in-out;
+  }
+  .menu li {margin-top: 40px;}
+  .menu li a {padding: 10px;}
+  .open-menu , .close-menu {display: block;}
+  #check:checked ~ .menu {right: 0;}
+  
+  .footer-content{
+   flex-direction: column ; 
+   margin: 5px 5px;
+  }
+  .left-image{
+   width: 150px;
 }
 .left-image01{
-   width: 300px;
+   width: 150px;
+}
+p{
+   font-size: 20px;  
+   }
+main, .Container{
+   max-width: 1000px;
+   margin: auto; 
+   padding: 10px;  
 }
    h3{
       font-size: 15px;   
    }
-   p{
-      font-size: 10px;  
-   }
-   header {
-      flex-direction: column;
-      gap: 10px;
-  }
   header  a{
   font-size: 15px;
 }
@@ -389,5 +440,20 @@ width: 100%;
    } 
    .hero3 h2{
   font-size: 25px;  
-   }   
+   }  
+section.heroo1 h1 {
+   font-size: 30px; 
 }
+ section.heroo2 h1 {
+   font-size: 30px; 
+}  
+section.heroo2 h1 {
+   font-size: 30px; 
+}
+section.heroo4 h1 {
+   font-size: 30px; 
+}
+section.heroo5 h1 {
+   font-size: 30px; 
+}
+} 
