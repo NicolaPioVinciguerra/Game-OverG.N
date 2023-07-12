@@ -31,15 +31,15 @@ footer  {
    display: flex;
  }
 p {
-margin: 20px auto ;
-font-family: 'Arial Narrow Bold', sans-serif; /*testo */ 
+/*FONTS*/ 
 margin-bottom:40px;
-color: #ffffff;
+color: var(--color1);
 font-size: 30px;
 line-height: 1.4;
+margin: 20px auto 1.4rem auto
  }
  h3 {
-font-family: 'Arial Narrow Bold', sans-serif; /*testo */
+/*FONTS*/
 text-align: center;
 font-size: 35px;
 font-weight: bold;
@@ -48,7 +48,7 @@ color: #ffffff;
  /*Footer*/
  /*Home*/
 .in{
-  color: #fcfcfc;
+   color: var(--color1);
   font-size: 30px;
   float: left;
   margin: 10px;
@@ -88,7 +88,7 @@ object-position: center;
    height: 100%;
 }
 .text0 {
-   font-family: "soehne";
+/*FONTS*/
    max-width: 10px;
    margin: 0;
    padding: 0 16px;
@@ -99,10 +99,10 @@ object-position: center;
    left: 50%;
    top: 50%;
    transform: translate(-50%, -50%);
-   color: white;
+   color: var(--color1);
    z-index: 100;
    margin: 0;
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */;
+  /*FONTS*/
 }
 .hero1 {
    position: relative;
@@ -126,7 +126,7 @@ object-position: center;
    max-width: 10px;
    margin: auto;
    padding: 0 16px;
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */;
+   /*FONTS*/
 }
 .hero1 h2 {
    font-size: 70px;
@@ -134,10 +134,10 @@ object-position: center;
    left: 50%;
    top: 50%;
    transform: translate(-50%, -50%);
-   color: white;
+   color: var(--color1);
    z-index: 100;
    margin: 0;
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */
+ /*FONTS*/
 }
 .hero2 {
    position: relative;
@@ -168,10 +168,10 @@ object-position: center;
    left: 50%;
    top: 50%;
    transform: translate(-50%, -50%);
-   color: white;
+   color: var(--color1);
    z-index: 100;
    margin: 0;
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */
+   /*FONTS*/
 }
 .hero3 {
    position: relative;
@@ -202,10 +202,10 @@ object-position: center;
    left: 50%;
    top: 50%;
    transform: translate(-50%, -50%);
-   color: white;
+   color: var(--color1);
    z-index: 100;
    margin: 0;
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */
+  /*FONTS*/
 }
 /*Home Fine*/
 /*IDER */
@@ -221,12 +221,12 @@ object-position: center;
    align-items: center;
    list-style: none;
    position: relative;
-   background-color: #032A36;
+   background-color: var(--color3);
    padding: 12px 20px;
 }
 header a {
    text-decoration: none;
-   color: #ffffff;
+   color: var(--color1);
 }
 .menu {
 display: flex;}
@@ -281,11 +281,11 @@ section.heroo {
    text-align: center;
 }
 section.heroo h1 {
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */
+  /*FONTS*/
    margin: 0;
    padding: 40px 10px;
    font-size: 40px;
-   color: rgba(253, 253, 253, 0.9);
+   color: var(--color1);
 }
 section.heroo1 {
    background-color: rgba(173, 136,22); 
@@ -293,10 +293,10 @@ section.heroo1 {
 }
 section.heroo1 h1 {
    margin: 0;
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */
+   /*FONTS*/
    padding: 40px 10px;
    font-size: 40px;
-   color: rgba(253, 253, 253, 0.9);
+   color: var(--color1);
 }
 section.heroo2 {
    background-color: rgba(82, 23,22); 
@@ -304,10 +304,10 @@ section.heroo2 {
 }
 section.heroo2 h1 {
    margin: 0;
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */ 
+   /*FONTS*/
    padding: 40px 10px;
    font-size: 40px;
-   color: rgba(253, 253, 253, 0.9);
+   color: var(--color1);
 }
 section.heroo3 {
    background-color: rgba(8,6,93); 
@@ -315,7 +315,7 @@ section.heroo3 {
 }
 section.heroo3 h1 {
    margin: 0;
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */
+/*FONTS*/
    padding: 40px 10px;
    font-size: 40px;
    color: rgba(253, 253, 253, 0.9);
@@ -326,10 +326,10 @@ section.heroo4 {
 }
 section.heroo4 h1 {
    margin: 0;
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */
+ /*FONTS*/
    padding: 40px 10px;
    font-size: 40px;
-   color: rgb(255, 255, 255);
+   color: var(--color1);
 }
 section.heroo5 {
    background-color: rgba(57, 36, 60); 
@@ -337,15 +337,15 @@ section.heroo5 {
 }
 section.heroo5 h1 {
    margin: 0;
-   font-family: 'Arial Narrow Bold', sans-serif; /*testo */
+   /*FONTS*/
    padding: 40px 10px;
    font-size: 40px;
-   color: rgba(253, 253, 253, 0.9);
+   color: var(--color1);
 }
 /*Css scritte iniziali pagine*/
 /*Css Pagine*/  
 main{
-  background-color: #ffffff;
+   background-color: var(--color1);
 }
 img {
    max-width: 100%; 
@@ -357,8 +357,8 @@ main, .Container{
    padding: 20px;  
 }
 .testo p{
-font-family: Helvetica;
-color: rgb(0, 0, 0);
+/*font-family:;*/
+color: var(--color2);
 font-size: 20px;
 line-height: 1.4;
 margin: 20px auto 1.4rem auto;
@@ -367,7 +367,7 @@ max-width:60ch;
 .Container h2{
    font-size: 30px;
    color: rgb(255, 168, 0);
-   font-family: 'Arial Narrow Bold', sans-serif;
+  /**/
 }
 .Container .immagine {
    max-width: 100%; /*Immagine*/
@@ -397,7 +397,7 @@ width: 100%;
    top: 0;
    right: -100%;
    z-index: 100; 
-   background-color: #15212D; 
+  background-color: var(--color3); 
    transition: all 0.2s ease-in-out;
   }
   .menu li {margin-top: 5px;}
