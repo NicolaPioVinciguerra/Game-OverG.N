@@ -19,8 +19,12 @@ footer  {
    padding: 20px;
 }
 .left-image{
-   width: 300px;
-   margin: 20px 20px ;
+width: 200px;
+margin: 20px 20px ;
+}
+.left-image01{
+width: 300px;
+margin: 20px 20px ;
 }
 .footer-content {
    display: flex;
@@ -29,6 +33,7 @@ footer  {
  }
  .footer-content01 {
    display: flex;
+   margin: 20px 20px ;
  }
 p {
 /*FONTS*/ 
@@ -413,9 +418,11 @@ width: 100%;
   }
   .left-image{
    width: 150px;
+   margin: 10px 10px ;
 }
 .left-image01{
-   width: 150px;
+   width: 200px;
+   margin: 10px 10px ;
 }
 p{
    font-size: 20px;  
